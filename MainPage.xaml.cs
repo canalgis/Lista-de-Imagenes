@@ -34,7 +34,7 @@ namespace xBindDataExample
         private void GridView_ItemClick(object sender, ItemClickEventArgs e)
         {
             var book = (Book)e.ClickedItem;
-            ResultTextBlock.Text = "Usted Seleciono " + book.Titulo; 
+            ResultTextBlock.Text = "Usted Selecciono " + book.Titulo; 
         }
     }
 }  
